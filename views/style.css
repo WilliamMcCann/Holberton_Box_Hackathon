@@ -4,7 +4,7 @@ a {
 }
 
 #navbar {
-  background-color: red;
+  background-color: #cc0000;
   color: white!important;
 }
 
@@ -22,4 +22,17 @@ a:hover {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+}
+
+#form {
+  background-color: #eeeeee;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 30px;
+}
+
+.btn-danger {
+  background-color: #cc0000;
+  border-color: #cc0000;
 }
