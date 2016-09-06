@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #000000;
+  color: #eeeeee;
 }
 
 .signup-in {
@@ -24,12 +24,19 @@ a:hover {
   line-height: 20px;
 }
 
+#createaccount {
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+}
+
 #form {
   background-color: #eeeeee;
   width: 600px;
   margin: auto;
-  margin-top: 150px;
-  padding: 30px;
+  padding: 50px;
 }
 
 .btn-danger {
