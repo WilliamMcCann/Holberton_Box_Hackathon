@@ -1,7 +1,25 @@
-.navbar {
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#navbar {
   background-color: red;
+  color: white!important;
 }
 
 .nb {
   color: white;
+}
+
+.signup-in {
+  float: right;
+}
+
+.navbar-left{
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
