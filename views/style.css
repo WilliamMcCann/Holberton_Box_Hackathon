@@ -23,3 +23,11 @@ a:hover {
   font-size: 18px;
   line-height: 20px;
 }
+
+img {
+  width: 100%!important;
+}
+
+#hero-copy {
+  text-align: center!important;
+}
