@@ -8,8 +8,8 @@ a {
   color: white!important;
 }
 
-.nb {
-  color: white;
+a:hover {
+  color: #000000;
 }
 
 .signup-in {
