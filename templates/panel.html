@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Respondable Panel</title>
+    <!-- Custom CSS -->
+    <link href="./style.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      #panel_top_heading {
+        display: block;
+        margin-top: 60px;
+      }
+
+      .panel_heading {
+        text-align: center;
+      }
+
+      .btn-panel-contact {
+        height: 200px;
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
+        background-image: url(phone.png);
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: blue;
+      }
+
+      .btn-panel-sync {
+          height: 200px;
+          max-width: 250px;
+          display: block;
+          margin: 0 auto;
+          background-image: url(refresh.png);
+          background-size: 200px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: green;
+      }
+
+      .btn-panel-search {
+          height: 200px;
+          max-width: 250px;
+          display: block;
+          margin: 0 auto;
+          background-image: url(search.png);
+          background-size: 200px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: purple;
+      }
+
+      .btn-panel-landslides {
+          height: 200px;
+          max-width: 250px;
+          display: block;
+          margin: 0 auto;
+          background-image: url(landslide.png);
+          background-size: 180px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: brown;
+      }
+
+      .btn-panel-fires {
+          height: 200px;
+          max-width: 250px;
+          display: block;
+          margin: 0 auto;
+          background-image: url(fire.png);
+          background-size: 120px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: orange;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top" id="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-left" href="#">Respondable</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div class="signup-in">
+            <a class="navbar-brand" href="#">Log In</a>
+            <a class="navbar-brand" href="#">Sign Up</a>
+          </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    </div>
+
+    <div class="container">
+
+      <h1 id="panel_top_heading">Welcome, {user}</h1>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="panel_heading">View Crucial Contacts</h3>
+          <p><a class="btn btn-default btn-panel-contact" href="#" role="button"> </a></p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="panel_heading">Sync Existing Kits</h3>
+          <p><a class="btn btn-default btn-panel-sync" href="#" role="button"> </a></p>
+        </div>
+        <div class="col-md-4">
+          <!--<h3>Heading</h3>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div>
+      </div>
+
+      <h2>Download New Emergency Kits</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="panel_heading">Search</h3>
+          <p><a class="btn btn-default btn-panel-search" href="#" role="button"> </a></p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="panel_heading">Landslides</h3>
+          <p><a class="btn btn-default btn-panel-landslides" href="#" role="button"> </a></p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="panel_heading">Fires</h3>
+        <p><a class="btn btn-default btn-panel-fires" href="#" role="button"> </a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
