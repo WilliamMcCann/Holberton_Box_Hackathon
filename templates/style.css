@@ -7,8 +7,19 @@ a {
   background-color: #cc0000;
 }
 
-a:hover {
-  color: #eeeeee!important;
+#logomedkit {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-top: 3px;
+}
+
+.hovernone:hover {
+  color: white!important;
+}
+
+.hovergray:hover {
+  color: #c0c0c0!important;
 }
 
 .signup-in {
@@ -51,7 +62,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
 }
 
-img {
+#hurricane {
   width: 100%!important;
 }
 
